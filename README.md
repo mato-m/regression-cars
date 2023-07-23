@@ -4,7 +4,7 @@ This repo shows the usage of two regression models in predicting the car prices 
 
 Linear regression and random forest regressor are both used and their performance on this dataset is compared.
 
-#### Dataset
+## Dataset
 The [dataset](https://www.kaggle.com/datasets/doaaalsenani/usa-cers-dataset) was downloaded from Kaggle.
 It has 2499 rows and 12 columns. To predict the price of the car we can use only three other columns,
 which are model, year and mileage. Since model is in form of a string, it needs to be converted to a number.
@@ -14,7 +14,7 @@ We only consider cars that do not have "Salvage insurance" as their title status
 histograms we can see that a small portion of values are significantly distant from the center.
 We can ignore these extreme values.
 
-#### Linear regression
+## Linear regression
 
 Linear regression is the simplest form of regression that aims to find the line that has a minimal
 distance from each data point in the dataset.
@@ -23,7 +23,7 @@ Root Mean Squared Error (RMSE) of Linear regression for this dataset was 6863.62
 This means that on average the distance between the actual price and the one that
 linear regression line predicts is 6863.62.
 
-#### Random forest regressor
+## Random forest regressor
 
 Random forest is an ensemble learning algorithm, which means it uses the results of multiple
 machine learning models in order to achieve the best accuracy. Random Forest combines a large
