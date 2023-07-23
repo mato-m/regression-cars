@@ -25,7 +25,7 @@ linear regression line predicts is 6863.62.
 
 #### Random forest regressor
 
-Random forest is an ensemble learning algorythm, which means it uses the results of multiple
+Random forest is an ensemble learning algorithm, which means it uses the results of multiple
 machine learning models in order to achieve the best accuracy. Random Forest combines a large
 number of decision tree models in order to get the best possible model accuracy. It is often used
 as both a classifier and a regressor. Root Mean Squared Error (RMSE) of 
